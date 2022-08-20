@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Blood Donation App</string>
     <string name="donate_blood_and_save_lives">Donate blood and save lives!</string>
+    <string name="sign_up_now">Sign Up Now</string>
+
+    <string-array name="bloodgroups">
+        <item>--Select Your Blood Group--</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
 </resources>

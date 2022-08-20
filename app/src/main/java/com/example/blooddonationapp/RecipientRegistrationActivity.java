@@ -7,20 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class DonorRegistrationActivity extends AppCompatActivity {
+public class RecipientRegistrationActivity extends AppCompatActivity {
 
     private TextView backButton;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_donor_registration);
+        setContentView(R.layout.activity_recipient_registration);
 
         backButton =findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(DonorRegistrationActivity.this, LoginActivity.class);
+                Intent intent =new Intent(RecipientRegistrationActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });

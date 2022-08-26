@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -40,4 +41,5 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.1'  //check
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation platform('com.google.firebase:firebase-bom:30.3.2')
 }

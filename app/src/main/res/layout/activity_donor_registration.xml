@@ -173,7 +173,7 @@
                         android:id="@+id/registerPassword"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:drawableStart="@drawable/ic_mail"
+                        android:drawableStart="@drawable/ic_lock"
                         android:drawablePadding="10dp"
                         android:hint="Enter Password"
                         android:inputType="textPassword"

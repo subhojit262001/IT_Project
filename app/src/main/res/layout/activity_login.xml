@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="LogIn Page"
+                android:text="@string/login_page"
                 android:textColor="#000"
 
                 android:textSize="25sp"
@@ -50,9 +50,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="Sign in to continue"
+                android:text="@string/sign_in_to_continue"
                 android:textColor="#000"
-
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -79,7 +78,7 @@
                         android:layout_height="match_parent"
                         android:drawableStart="@drawable/ic_mail"
                         android:drawablePadding="10dp"
-                        android:hint="Enter Email"
+                        android:hint="@string/enter_email"
                         android:inputType="textEmailAddress"
                         android:textColor="#000"
                         android:textColorHint="#000"
@@ -103,7 +102,7 @@
                         android:layout_height="match_parent"
                         android:drawableStart="@drawable/ic_lock"
                         android:drawablePadding="10dp"
-                        android:hint="Enter Password"
+                        android:hint="@string/enter_password"
                         android:inputType="textPassword"
                         android:textColor="#000"
                         android:textColorHint="#000"
@@ -116,7 +115,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Forgot Password"
+                    android:text="@string/forgot_password"
                     android:id="@+id/forgotPassword"
                     android:textColor="#000"
                     android:gravity="end"
@@ -130,7 +129,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/buttons_background"
-                    android:text="Sign In Now"
+                    android:text="@string/sign_in_now"
                     android:textAllCaps="false"
                     android:textColor="#fff"
                     android:textSize="20sp">
@@ -143,7 +142,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center"
-                    android:text="Dont't have an account? Sign Up."
+                    android:text="@string/don_t_have_an_account_sign_up"
                     android:textColor="#000"
                     android:textStyle="bold" />
 

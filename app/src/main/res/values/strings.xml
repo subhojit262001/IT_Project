@@ -10,6 +10,8 @@
     <string name="forgot_password">Forgot Password</string>
     <string name="sign_in_now">Sign In Now</string>
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string-array name="bloodgroups">
         <item>--Select Your Blood Group--</item>

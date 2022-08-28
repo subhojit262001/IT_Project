@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -81,9 +81,9 @@
                     android:textColor="#000"
                     android:textColorHint="#000"
                     android:textSize="18sp"
-                    tools:ignore="TouchTargetSizeCheck">
+                    tools:ignore="TouchTargetSizeCheck"/>
 
-                </com.google.android.material.textfield.TextInputEditText>
+<!--                </com.google.android.material.textfield.TextInputEditText>-->
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/registerIDNumber"
@@ -96,9 +96,9 @@
                     android:minHeight="48dp"
                     android:textColor="#000"
                     android:textColorHint="#000"
-                    android:textSize="18sp">
+                    android:textSize="18sp"/>
 
-                </com.google.android.material.textfield.TextInputEditText>
+<!--                </com.google.android.material.textfield.TextInputEditText>-->
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/registerPhoneNumber"
@@ -112,9 +112,9 @@
                     android:textColor="#000"
                     android:textColorHint="#000"
                     android:textSize="18sp"
-                    tools:ignore="TouchTargetSizeCheck">
+                    tools:ignore="TouchTargetSizeCheck"/>
 
-                </com.google.android.material.textfield.TextInputEditText>
+<!--                </com.google.android.material.textfield.TextInputEditText>-->
 
                 <Spinner
                     android:id="@+id/bloodGroupsSpinner"
@@ -130,24 +130,24 @@
                     android:minHeight="48dp"
                     tools:ignore="TouchTargetSizeCheck" />
 
-                <com.google.android.material.textfield.TextInputLayout
-                    style=""
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:theme="@style/AppTheme"
-                    app:boxStrokeColor="#000"
-                    app:hintTextAppearance="@color/colorPrimary">
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                    style=""-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:theme="@style/AppTheme"-->
+<!--                    app:boxStrokeColor="#000"-->
+<!--                    app:hintTextAppearance="@color/colorPrimary">-->
 
-                </com.google.android.material.textfield.TextInputLayout>
+<!--                </com.google.android.material.textfield.TextInputLayout>-->
 
 
-                <com.google.android.material.textfield.TextInputLayout
-                    style=""
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:theme="@style/Widget.Design.TextInputLayout"
-                    app:boxStrokeColor="#000"
-                    app:hintTextAppearance="@color/colorPrimary">
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                    style=""-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:theme="@style/Widget.Design.TextInputLayout"-->
+<!--                    app:boxStrokeColor="#000"-->
+<!--                    app:hintTextAppearance="@color/colorPrimary">-->
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/registerEmail"
@@ -163,15 +163,15 @@
                         tools:ignore="TouchTargetSizeCheck" />
 
 
-                </com.google.android.material.textfield.TextInputLayout>
+<!--                </com.google.android.material.textfield.TextInputLayout>-->
 
-                <com.google.android.material.textfield.TextInputLayout
-                    style=""
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:theme="@style/Widget.Design.TextInputLayout"
-                    app:boxStrokeColor="#000"
-                    app:hintTextAppearance="@color/colorPrimary">
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                    style=""-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:theme="@style/Widget.Design.TextInputLayout"-->
+<!--                    app:boxStrokeColor="#000"-->
+<!--                    app:hintTextAppearance="@color/colorPrimary">-->
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/registerPassword"
@@ -187,7 +187,7 @@
                         tools:ignore="TouchTargetSizeCheck" />
 
 
-                </com.google.android.material.textfield.TextInputLayout>
+<!--                </com.google.android.material.textfield.TextInputLayout>-->
 
                 <Button
                     android:id="@+id/registerButton"
@@ -221,4 +221,4 @@
 
     </androidx.cardview.widget.CardView>
 
-</LinearLayout>
+</ScrollView>

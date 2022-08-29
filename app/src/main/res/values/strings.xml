@@ -2,6 +2,16 @@
     <string name="app_name">Blood Donation App</string>
     <string name="donate_blood_and_save_lives">Donate blood and save lives!</string>
     <string name="sign_up_now">Sign Up Now</string>
+    <string name="button">Button</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="login_page">LogIn Page</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in_now">Sign In Now</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string-array name="bloodgroups">
         <item>--Select Your Blood Group--</item>
